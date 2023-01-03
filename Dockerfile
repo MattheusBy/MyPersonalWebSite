@@ -20,6 +20,7 @@ WORKDIR /app
 COPY poetry.lock pyproject.toml ./
 RUN poetry install --no-root --no-ansi
 
+# copy project's code to container
 COPY . /app
 EXPOSE 7070
 # run app with via gunicorn
