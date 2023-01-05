@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>4istoLIFE</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{{ url('static', filename='/img/my_logo.png') }}" rel="icon">
+  <link href="{{ url('static', filename='/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{{ url('static', filename='/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ url('static', filename='/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+  <link href="{{ url('static', filename='/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+  <link href="{{ url('static', filename='/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+  <link href="{{ url('static', filename='/vendor/remixicon/remixicon.css') }}" rel="stylesheet">
+  <link href="{{ url('static', filename='/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{{ url('static', filename='/css/style.css') }}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Personal - v4.10.0
+  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <main id="main">
+
+    <!-- ======= Portfolio Details ======= -->
+    <div id="portfolio-details" class="portfolio-details">
+      <div class="container-fluid" align="center">
+
+        <div class="row">
+
+          <div class="col-lg-9">
+            <h3 class="portfolio-title" align="left" style="padding-left:70px">4istoLIFE</h3>
+
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="{{ url('static', filename='/img/4isto_img/4isto-1.png') }}" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="{{ url('static', filename='/img/4isto_img/4isto-2.png') }}" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="{{ url('static', filename='/img/4isto_img/4isto-3.png') }}" alt="">
+                </div>
+
+                 <div class="swiper-slide">
+                  <img src="{{ url('static', filename='/img/4isto_img/4isto-4.png') }}" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="{{ url('static', filename='/img/4isto_img/4isto-5.png') }}" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="{{ url('static', filename='/img/4isto_img/4isto-6.png') }}" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="{{ url('static', filename='/img/4isto_img/4isto-7.png') }}" alt="">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+          </div>
+          <div class="col-lg-3 portfolio-info" align="justify" style="margin-top:30px">
+            <h3>Project information</h3>
+            <ul>
+              <li><strong>Category</strong>: Development of web-site for cleaning-company</li>
+              <li><strong>Project date</strong>: December, 2022</li>
+              <li><strong>Project code</strong>: <a href="https://github.com/MattheusBy/4isto_Life" target="_blank">GitHub</a></li>
+            </ul>
+            </div>
+            </div>
+  <div class="row">
+    <div class="col col-lg-1" align="justify">
+    </div>
+    <div class="col col-lg-12" align="justify" style="padding-left:70px;padding-right:70px; ">
+      <h3>Project description</h3>
+      <p>Главная цель данного проекта — создание полностью готового проекта для организации,
+        включающее весь необходимый функционал для конкретной области, в частности химчистка мягкой мебели.
+        Мой приятель занимался химчисткой мебели и он выступил в качестве гипотетического заказчика.
+        Мы с ним обсудили какие именно функции сайта он хотел бы видеть для себя, что в последствие было реализовано.
+        Основными задачей было создать сайт,
+        при посещении которого клиент может самостоятельно получить максимум интересующей его информации
+        без обращения к менеджерам.</p>
+
+Мной было принято решение использовать фреймворк Flask, так он позволяет реализовывать обширный круг опций, при этом данный фреймворк не обладает перегруженностью инструментами из коробки. Подключение БД, а так же система регистрации пользователей я счел неактуальным для данного приложения. Было решено реализовать следующую структуру сайта:
+
+    • Главная страница содержит баннер с названием компании, примеры работ до и после чистки, раздел о преимуществах компании;
+    • Страница с актуальными ценами для каждого вида мебели, а так же цены на дополнительные услуги;
+    • Страница, описывающая процесс и этапы чистки;
+    • Страница с онлайн-календарем с расписанием чисток по датам и времени. Необходимость продиктована тем, чтобы клиент заблаговременно мог узнать и выбрать удобную дату и время для него дату и время из представленных. Заполнение календаря производится менеджером при подтверждении клиентом заказа.
+    • Страница, содержащая контактную информацию и ссылки на социальные сети.
+    • Страница, позволяющая клиенту самостоятельно заполнить форму с необходимой информацией, а так же обязательным прикреплением фото мебели для точной оценки стоимости услуг, так как окончательная стоимость чистки не всегда соответствует цене в прайсе и зависит от степени загрязнения, конструктивных особенностей изделия и др. Данная опция позволяет клиенту не тратить время на выбор удобного для него мессенджера для связи с менеджером, а отправить информацию сразу с сайта. Сообщение приходит по средствам Telegram к менеджеру и после оценки клиент по SMS получает окончательную цену за чистку его изделия.
+    • Реализован индивидуальный дизайн для страниц с ошибками 404 и 500.
+
+Дополнительной задачей для меня было создание адаптивного и приятного интерфейса. Для решения этой задачи был использован Bootstrap 5 с применением возможностей Canva, bootsnipp.com, svgwave.in, icons8.com.
+Для тестирования приложения были использованы фреймворк Pytest, инструмент Coverage, SeleniumWebDriver. Покрытие приложения тестами составляет 98%.
+В проекте применены возможности Docker и Docker Compose для упрощения процесса реализации проекта на сервере.
+    </div>
+    </div>
+  </div>
+    </div><!-- End Portfolio Details -->
+
+  </main><!-- End #main -->
+
+  <div class="credits">
+    <!-- All the links in the footer should remain intact. -->
+    <!-- You can delete the links only if you purchased the pro version. -->
+    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
+    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="{{ url('static', filename='/vendor/purecounter/purecounter_vanilla.js') }}"></script>
+  <script src="{{ url('static', filename='/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ url('static', filename='/vendor/glightbox/js/glightbox.min.js') }}"></script>
+  <script src="{{ url('static', filename='/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+  <script src="{{ url('static', filename='/vendor/swiper/swiper-bundle.min.js') }}"></script>
+  <script src="{{ url('static', filename='/vendor/waypoints/noframework.waypoints.js') }}"></script>
+  <script src="{{ url('static', filename='/vendor/php-email-form/validate.js') }}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{{ url('static', filename='/js/main.js') }}"></script>
+
+</body>
+
+</html>
