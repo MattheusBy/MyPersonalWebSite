@@ -15,6 +15,6 @@ aiohttp_jinja2.setup(app,
 setup_routes(app)
 # add route for static-files
 app.router.add_static("/static", path="mysite")
-
+# run app
 if __name__ == '__main__':
     web.run_app(app, host="0.0.0.0", port=7070)
