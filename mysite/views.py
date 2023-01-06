@@ -1,3 +1,8 @@
+"""
+This module sets view-functions for handling
+user's requests and renders associate template
+"""
+
 import aiohttp_jinja2
 
 

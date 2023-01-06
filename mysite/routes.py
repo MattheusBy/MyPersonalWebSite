@@ -1,3 +1,7 @@
+"""
+The module sets appropriate URL for views-functions
+"""
+
 from mysite.views import index, chistolife
 
 
