@@ -7,6 +7,7 @@ async def index(request):
         'index.html', request, context=context
     )
 
+
 async def chistolife(request):
     context = {}
     return aiohttp_jinja2.render_template(
