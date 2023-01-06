@@ -44,9 +44,9 @@
       <div class="container-fluid" align="center">
 
         <div class="row">
+      <h3 class="portfolio-title" align="left" style="padding-left:110px">4istoLIFE</h3>
+          <div class="col-lg-12">
 
-          <div class="col-lg-9">
-            <h3 class="portfolio-title" align="left" style="padding-left:70px">4istoLIFE</h3>
 
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
@@ -83,55 +83,73 @@
             </div>
 
           </div>
-          <div class="col-lg-3 portfolio-info" align="justify" style="margin-top:30px">
-            <h3>Project information</h3>
+          </div>
+
+    <div class="col col-lg-10" align="justify" >
+      <h3>Project information</h3>
             <ul>
-              <li><strong>Category</strong>: Development of web-site for cleaning-company</li>
+              <li><strong>Name</strong>: 4istoLIFE</li>
+              <li><strong>Category</strong>: Web-site for cleaning-company</li>
               <li><strong>Project date</strong>: December, 2022</li>
               <li><strong>Project code</strong>: <a href="https://github.com/MattheusBy/4isto_Life" target="_blank">GitHub</a></li>
             </ul>
-            </div>
-            </div>
-  <div class="row">
-    <div class="col col-lg-1" align="justify">
-    </div>
-    <div class="col col-lg-12" align="justify" style="padding-left:70px;padding-right:70px; ">
+      </div>
+      <div class="col col-lg-10" align="justify" >
       <h3>Project description</h3>
-      <p>Главная цель данного проекта — создание полностью готового проекта для организации,
-        включающее весь необходимый функционал для конкретной области, в частности химчистка мягкой мебели.
-        Мой приятель занимался химчисткой мебели и он выступил в качестве гипотетического заказчика.
-        Мы с ним обсудили какие именно функции сайта он хотел бы видеть для себя, что в последствие было реализовано.
-        Основными задачей было создать сайт,
-        при посещении которого клиент может самостоятельно получить максимум интересующей его информации
-        без обращения к менеджерам.</p>
+      <p style="text-indent: 50px">
+        The main aim of this project is to create a completely finished project for the company,
+        including all the necessary functionality for cleaning of upholstered furniture.
+        My mate had a furniture dry cleaner company and he acted as a customer.
+        We discussed exactly what functions of the site he'd like to see for himself,
+        which I have subsequently implemented. The main task was to create a website,
+        which visiting  the client can independently obtain the maximum of information for him
+        without contacting managers.</p>
 
-Мной было принято решение использовать фреймворк Flask, так он позволяет реализовывать обширный круг опций, при этом данный фреймворк не обладает перегруженностью инструментами из коробки. Подключение БД, а так же система регистрации пользователей я счел неактуальным для данного приложения. Было решено реализовать следующую структуру сайта:
-
-    • Главная страница содержит баннер с названием компании, примеры работ до и после чистки, раздел о преимуществах компании;
-    • Страница с актуальными ценами для каждого вида мебели, а так же цены на дополнительные услуги;
-    • Страница, описывающая процесс и этапы чистки;
-    • Страница с онлайн-календарем с расписанием чисток по датам и времени. Необходимость продиктована тем, чтобы клиент заблаговременно мог узнать и выбрать удобную дату и время для него дату и время из представленных. Заполнение календаря производится менеджером при подтверждении клиентом заказа.
-    • Страница, содержащая контактную информацию и ссылки на социальные сети.
-    • Страница, позволяющая клиенту самостоятельно заполнить форму с необходимой информацией, а так же обязательным прикреплением фото мебели для точной оценки стоимости услуг, так как окончательная стоимость чистки не всегда соответствует цене в прайсе и зависит от степени загрязнения, конструктивных особенностей изделия и др. Данная опция позволяет клиенту не тратить время на выбор удобного для него мессенджера для связи с менеджером, а отправить информацию сразу с сайта. Сообщение приходит по средствам Telegram к менеджеру и после оценки клиент по SMS получает окончательную цену за чистку его изделия.
-    • Реализован индивидуальный дизайн для страниц с ошибками 404 и 500.
-
-Дополнительной задачей для меня было создание адаптивного и приятного интерфейса. Для решения этой задачи был использован Bootstrap 5 с применением возможностей Canva, bootsnipp.com, svgwave.in, icons8.com.
-Для тестирования приложения были использованы фреймворк Pytest, инструмент Coverage, SeleniumWebDriver. Покрытие приложения тестами составляет 98%.
-В проекте применены возможности Docker и Docker Compose для упрощения процесса реализации проекта на сервере.
+        <p style="text-indent: 50px">
+        I decided to use the Flask framework because  it allows to implement a wide range of options,
+        at the same time, this framework isn't overloaded with tools out of the box.
+        Connecting the database and the user registration system, I considered irrelevant for this application.
+        I have made a decision to implement the following site structure:
+        </p>
+      <ul>
+        <li>The index page contains a banner with the name of the company, examples of work before and after cleaning,
+          a section about the benefits of the company;</li>
+        <li>The page with current prices for each type of furniture and the prices for additional services;</li>
+        <li>The page describing the process and steps of cleaning;</li>
+        <li>The page with an online calendar with a schedule of cleanings by date and time.
+            It needs for the reason that the client could find out and choose in advance
+            convenient date and time for him the date and time of the submitted.
+            The calendar is filling in by the manager when the client have confirmed the order.</li>
+        <li>The page containing contact information and links to social networks</li>
+        <li>The page allows the client to independently fill out the form with the necessary information
+            and the obligatory attachment of a photo of furniture for an accurate assessment of the cost of services,
+            since the final cost of cleaning doesn't always correspond to the price in the price list and
+            depends on the degree of contamination, design features of the product, etc.
+            This option allows the client doesn't waste time choosing a convenient messenger
+            for him to contact the manager,
+            and send information directly from the site.
+            The message comes via Telegram to the manager and after evaluation
+            the customer receives the final price for the cleaning of his product via SMS.</li>
+        <li>Implemented custom design for 404 and 500 error pages.</li>
+      </ul>
+        <p style="text-indent: 50px">
+          The additional task for me was to create an adaptive and pleasant interface.
+           To solve this problem, I used Bootstrap 5, Canva, bootsnipp.com, svgwave.in, icons8.com.
+        </p>
+        <p style="text-indent: 50px">
+          The Pytest framework, Coverage tool, SeleniumWebDriver were used to test the application.
+           Application coverage with tests is 92%.
+        </p>
+        <p style="text-indent: 50px">
+          The project uses the capabilities of Docker and Docker Compose
+           to simplify the process of project implementation on the server.
+        </p>
     </div>
     </div>
-  </div>
-    </div><!-- End Portfolio Details -->
-
+  </div><!-- End Portfolio Details -->
   </main><!-- End #main -->
 
-  <div class="credits">
-    <!-- All the links in the footer should remain intact. -->
-    <!-- You can delete the links only if you purchased the pro version. -->
-    <!-- Licensing information: https://bootstrapmade.com/license/ -->
-    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
-    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-  </div>
+
 
   <!-- Vendor JS Files -->
   <script src="{{ url('static', filename='/vendor/purecounter/purecounter_vanilla.js') }}"></script>
