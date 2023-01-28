@@ -18,3 +18,10 @@ async def chistolife(request):
     return aiohttp_jinja2.render_template(
         'chistolife.html', request, context=context
     )
+
+
+async def djangomarket(request):
+    context = {}
+    return aiohttp_jinja2.render_template(
+        'djangomarket.html', request, context=context
+    )
