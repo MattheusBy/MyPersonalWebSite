@@ -1,0 +1,26 @@
+version: '3.9'
+
+services:
+  nginx:
+    build: ./nginx
+    ports:
+      - 80:80
+    depends_on:
+      - web
+  web:
+    restart: always
+    build: ./web
+    ports:
+      - 7070:80
+    volumes:
+      - app:/usr/src/app
+      - static:/usr/src/app/static
+    env_file: web/pyproject.toml
+    environment:
+      DEBUG: 'true'
+    command: poetry run gunicorn --worker-class aiohttp.GunicornWebWorker --bind 0.0.0.0:7070 "mysite.main:app"
+
+volumes:
+  app:
+  static:
+  web-static:
