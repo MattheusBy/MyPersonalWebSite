@@ -11,7 +11,7 @@ services:
     restart: always
     build: ./web
     ports:
-      - 7070:80
+      - 7070:7070
     volumes:
       - app:/usr/src/app
       - static:/usr/src/app/static
