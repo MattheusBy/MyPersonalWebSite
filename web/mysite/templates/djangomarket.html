@@ -100,53 +100,46 @@
       <div class="col col-lg-10" align="justify" >
       <h3>Project description</h3>
       <p style="text-indent: 50px">
-        The main aim of this project is to create a completely finished project for the company,
-        including all the necessary functionality for cleaning of upholstered furniture.
-        My mate had a furniture dry cleaner company and he acted as a customer.
-        We discussed exactly what functions of the site he'd like to see for himself,
-        which I have subsequently implemented. The main task was to create a website,
-        which visiting  the client can independently obtain the maximum of information for him
-        without contacting managers.</p>
-
+        This is my first project which was created as a thesis at the end of
+        my Python Developer course at TeachMeSkills IT-school. I developed this project on my own.
+        The mentor offered to choose a project to implement (a Telegram bot, a blog, etc.).
+        My choice was an online-store, although,
+        the mentor said that it“s better to implement such projects in a team. But I decided to do it alone..</p>
         <p style="text-indent: 50px">
-        I decided to use the Flask framework because  it allows to implement a wide range of options,
-        at the same time, this framework isn't overloaded with tools out of the box.
-        Connecting the database and the user registration system, I considered irrelevant for this application.
-        I have made a decision to implement the following site structure:
+        My choice was in favour of an online-store because the full implementation
+          of this project will require the use of various technologies,
+          libraries and the Django framework itself, which will be a good experience for me.
+        </p>
+        <p style="text-indent: 50px">
+        The result is a correctly working website for an online store with the following functionality:
         </p>
       <ul>
-        <li>The index page contains a banner with the name of the company, examples of work before and after cleaning,
-          a section about the benefits of the company;</li>
-        <li>The page with current prices for each type of furniture and the prices for additional services;</li>
-        <li>The page describing the process and steps of cleaning;</li>
-        <li>The page with an online calendar with a schedule of cleanings by date and time.
-            It needs for the reason that the client could find out and choose in advance
-            convenient date and time for him the date and time of the submitted.
-            The calendar is filling in by the manager when the client have confirmed the order.</li>
-        <li>The page containing contact information and links to social networks</li>
-        <li>The page allows the client to independently fill out the form with the necessary information
-            and the obligatory attachment of a photo of furniture for an accurate assessment of the cost of services,
-            since the final cost of cleaning doesn't always correspond to the price in the price list and
-            depends on the degree of contamination, design features of the product, etc.
-            This option allows the client doesn't waste time choosing a convenient messenger
-            for him to contact the manager,
-            and send information directly from the site.
-            The message comes via Telegram to the manager and after evaluation
-            the customer receives the final price for the cleaning of his product via SMS.</li>
-        <li>Implemented custom design for 404 and 500 error pages.</li>
+        <li>Creating a microservice architecture
+          with Docker-Compose: containers with application, database (PostgreSQL), proxy server (Nginx);</li>
+        <li>Pretty nice and responsive UI;</li>
+        <li>User registrations+captcha, private office</li>
+        <li>Catalogue with product categories, subcategories</li>
+        <li>Description of each product, product photo, current price, quantity available;
+          for authorized users: the ability to add to cart/favorites,
+          write feedback and rate the product</li>
+        <li>Display of product prices in US dollars and euros at the current NB RB exchange rate;</li>
+        <li>Display of exchange rates for major currencies on each page;</li>
+        <li>Promo code system. When a promotional code is applied,
+          the user is informed of the amount of the discount;</li>
+        <li>Payment system (PayPal-sandbox version);</li>
+        <li>Email newsletter with store news;</li>
+        <li>nformation about current weather (OpenWeatherAPI) in user's city (for authorized users)
+          or Minsk (for unauthorized users). When implementing this functionality,
+          I gained experience in writing my own Middleware and context processor
+          to get data about user's city before rendering a page template;</li>
+        <li>Contact form. When you fill in the form,
+          an email is sent with the question and the customer's
+          contact details for feedback;</li>
+        <li>Pages with information about the store, delivery, promotions and discounts;</li>
+        <li>Possibility to search for products by name;</li>
+        <li>Links to social media;</li>
+        <li>Docker containerize.</li>
       </ul>
-        <p style="text-indent: 50px">
-          The additional task for me was to create an adaptive and pleasant interface.
-           To solve this problem, I used Bootstrap 5, Canva, bootsnipp.com, svgwave.in, icons8.com.
-        </p>
-        <p style="text-indent: 50px">
-          The Pytest framework, Coverage tool, SeleniumWebDriver were used to test the application.
-           Application coverage with tests is 92%.
-        </p>
-        <p style="text-indent: 50px">
-          The project uses the capabilities of Docker and Docker Compose
-           to simplify the process of project implementation on the server.
-        </p>
     </div>
     </div>
   </div><!-- End Portfolio Details -->
