@@ -25,3 +25,10 @@ async def djangomarket(request):
     return aiohttp_jinja2.render_template(
         'djangomarket.html', request, context=context
     )
+
+
+async def mypersonalwebsite(request):
+    context = {}
+    return aiohttp_jinja2.render_template(
+        'mypersonalwebsite.html', request, context=context
+    )
