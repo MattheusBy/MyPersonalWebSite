@@ -4,7 +4,7 @@ Simple Aiohttp-application. The purpose of this project is to create a personal 
 
 ## Author
 
-Author: Matsvey Malchanau 
+Matsvey Malchanau 
 
 Email: matsvey.malchanau.python@gmail.com
 
