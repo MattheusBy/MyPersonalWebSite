@@ -2,6 +2,10 @@
 
 Simple Aiohttp-application. The purpose of this project is to create a personal CV site with extended information about me and detailed descriptions of projects that are inappropriate to list on a CV.
 
+## Link
+
+http://matsveymalchanau.info/
+
 ## Author
 
 Matsvey Malchanau 
