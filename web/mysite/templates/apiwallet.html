@@ -67,11 +67,34 @@
       <div class="col col-lg-10" align="justify" >
         <h3>Project description</h3>
         <p style="text-indent: 50px">API Wallet project description
-          The small project, which was written as a test task.
-          The prerequisites was to create the project using DjangoRestFramework.
-          It was necessary to implement registration system, basic CRUD,
-          daily expense/income statistics distribution system, as well as application containerization,
-          creation of Nginx proxy server of minimal microservice architecture using Docker-Compose.</p>
+          This is a small API-application for controlling income and expenses.</p>
+        <p style="text-indent: 50px"> Technologies:
+          <ul>
+            <li>DjangoRestFramework</li>
+            <li>Nginx</li>
+            <li>Docker/Docker-Compose</li>
+            <li>Djoser</li>
+            <li>JWT-authentication</li>
+            <li>PostgreSQL</li>
+            <li>SwaggerUI</li>
+            <li>Redis</li>
+            <li>Celery/Celery-Beat</li>
+            </ul></p>
+          <p style="text-indent: 50px">It was decided to create the project using DjangoRestFramework.
+            It was necessary to implement registration system, basic CRUD,
+            daily expense/income statistics distribution system for each user,
+            application containerization, creation Nginx proxy-server,
+            creation of project documentation using Swagger.</p>
+          <p style="text-indent: 50px"> Application functionality includes:
+          <ul>
+            <li>User registration, verification with email;</li>
+            <li>Authentication using JWT-tokens;</li>
+            <li>Initial initiation of a balance. Later it can be changed manually;</li>
+            <li>Income and expenditure operations (add, edit, delete operations);</li>
+            <li>Daily distribution of statistics for the previous day to all users;</li>
+            <li>Detailed documentation of the application;</li>
+            <li>Containerization of the whole project.</li>
+            </ul></p>
       </div>
     </div>
   </div><!-- End Portfolio Details -->
