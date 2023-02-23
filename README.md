@@ -4,42 +4,32 @@ Simple Aiohttp-application. The purpose of this project is to create a personal 
 
 ## Link
 
-http://matsveymalchanau.info/
+[matsveymalchanau.info](http://matsveymalchanau.info//)
 
 ## Author
 
-Matsvey Malchanau 
+Matsvey Malchanau
+
+Website: [matsveymalchanau.info](http://matsveymalchanau.info/)
 
 Email: matsvey.malchanau.python@gmail.com
 
-LinkedIn: www.linkedin.com/in/matsvey-malchanau
+LinkedIn: [Matsvey Malchanau](https://www.linkedin.com/in/matsvey-malchanau/)
 
-Github: github.com/MattheusBy 
+Github: [MattheusBy](https://github.com/MattheusBy)
 
 
 ## Technologies:
-Aiohttp
-
-Poetry
-
-Docker / Docker-Compose
-
-Gunicorn
-
-Nginx
-
-Bootstrap 5
-
-flake8
+Aiohttp, Poetry, Docker / Docker-Compose, Gunicorn, Nginx, Bootstrap 5, flake8, Cloud Server
 
 ## Gratitude:
 
-Bootstrapmade (https://bootstrapmade.com/)
+[Bootstrapmade](https://bootstrapmade.com/)
 
-Removebg (https://www.remove.bg/)
+[Removebg](https://www.remove.bg/)
 
-Canva (https://www.canva.com)
+[Canva](https://www.canva.com)
 
-CoolBackgrounds (https://coolbackgrounds.io/)
+[CoolBackgrounds](https://coolbackgrounds.io/)
 
-icons8.com (https://icons8.com/)
+[icons8.com](https://icons8.com/)
